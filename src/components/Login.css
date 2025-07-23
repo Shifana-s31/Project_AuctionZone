@@ -1,0 +1,15 @@
+.centered-div {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+    margin-top: 5%;
+    border: 2px solid rgb(203, 200, 200);
+    border-radius: 10px;
+}
+
+@media (max-width:940px) {
+    .centered-div {
+        margin: auto;
+        width: 100%;
+    }
+}

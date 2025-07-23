@@ -1,0 +1,44 @@
+.admin-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.admin-card {
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for the card */
+}
+
+.admin-table {
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-table th {
+  background-color: #343a40; /* Dark header background */
+  color: #ffffff; /* White text */
+  text-align: center;
+}
+
+.admin-table td, .admin-table th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for alternate rows */
+}
+
+.admin-table tr:hover {
+  background-color: #e9ecef; /* Highlight row on hover */
+}
+
+.admin-table td {
+  font-weight: 500;
+  font-size: 16px;
+}
